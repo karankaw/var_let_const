@@ -20,7 +20,7 @@ function computeLet() {
     //x is let , Scoped to Block
     console.log(x);
   }
-  // console.log(x);
+  console.log(x); //Error X is not defined as its outside {} braces block
 }
 computeLet();
 //console.log("After Loop", i)
@@ -28,7 +28,7 @@ computeLet();
 // const PI //Constants need to be Intialised
 //Missing initializer in const declaration
 const PI = 3.14;
-// console.log(`Value of PI ${PI}`);
+console.log(`Value of PI ${PI}`);
 // PI = 6.28;
 // console.log(`Value of PI ${PI}`);
 
