@@ -11,7 +11,7 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
     console.log(i);
   }
   console.log(i);
-})(); //IIFE Immediately Invoked Function Expression
+})(); //IIFE Immediately Invoked Function Expression Fire and Forget, Can;t be Reused
 
 console.log("--------------------------");
 
