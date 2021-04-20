@@ -20,7 +20,7 @@ function computeLet() {
     //x is let , Scoped to Block
     console.log(x);
   }
-  console.log(x); //Error X is not defined as its outside {} braces block
+  //console.log(x); //Error X is not defined as its outside {} braces block
 }
 computeLet();
 //console.log("After Loop", i)
